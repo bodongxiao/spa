@@ -1,0 +1,84 @@
+div {
+    font-size: 1.1em;
+      margin: 50px auto;
+        width: 370px;
+
+}
+#null_wid{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 5px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+#unnum_wid{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 5px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+#unzero_wid{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 5px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+#null_hei{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 43px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+#unnum_hei{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 43px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+#unzero_hei{
+    display: none;
+      position: absolute;
+        left: 720px;
+          top: 43px;
+            width: 200px;
+              height: 50px;
+                color: red;
+
+}
+input, label {
+    font-size: 1em;
+      margin: 5px 0;
+        padding-left: 5px;
+
+}
+
+span {
+    color: red;
+
+}
+
+#calculate {
+    margin-left: 63px;
+      width: 70px;
+
+}
+

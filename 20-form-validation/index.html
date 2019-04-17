@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+      <title>矩形计算器</title>
+        <link rel="stylesheet" href="rectangle.css">
+          <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+          </head>
+          <body>
+          <div>
+              <label>宽度：</label>
+                <input id="width" type="text" autofocus>
+                  <span id="tip_wid">*</span>
+                    <div id="null_wid">宽度不能为空</div>
+                      <div id="unnum_wid">请输入数字</div>
+                        <div id="unzero_wid">请输入大于0的数值</div>
+                          <br>
+                            <label>高度：</label>
+                              <input id="height" type="text">
+                                <span id="tip_hei">*</span>
+                                  <div id="null_hei">高度不能为空</div>
+                                    <div id="unnum_hei">请输入数字</div>
+                                      <div id="unzero_hei">请输入大于0的数值</div>
+                                        <br>
+                                          <input id="calculate" type="button" value="计算" onclick="checkwid();checkhei();doit()">
+                                            <br>
+                                              <label>周长：</label>
+                                                <input id="perimeter" type="text" disabled>
+                                                  <br>
+                                                    <label for="">面积：</label>
+                                                      <input id="area" type="text" disabled>
+                                                    </div>
+                                                     <script src="check.js"></script>
+                                                      <script src="rectangle.js"></script>
+                                                      </body>
+                                                      </html>
